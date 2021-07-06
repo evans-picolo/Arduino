@@ -1,7 +1,7 @@
 /*
  * Timer 1
  * 
- * Código para contar o tempo entre pulsos utilizando interrupção.
+ * Código para contar o tempo entre pulsos utilizando interrupção com debounce.
  * 
  * Evans Picolo
  * Asthor Barden
@@ -12,7 +12,7 @@
 
 // ===== CONSTANTES ===============================================================================================
 
-const int DEBOUNCE = 100;   // tempo em ms para debounce do sensor
+const int DEBOUNCE = 300;   // tempo em ms para debounce do sensor
 
 
 // ===== VARIÁVEIS GLOBAIS ========================================================================================
